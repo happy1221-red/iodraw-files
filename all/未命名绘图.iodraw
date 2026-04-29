@@ -20,7 +20,7 @@
           <mxGeometry x="472" y="330" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-5" value="读取水位&#xa;WATER_GetData" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="160" y="450" width="150" height="42" as="geometry" />
+          <mxGeometry x="180" y="450" width="150" height="42" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-6" value="读取时间&#xa;Read_All_Time" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="385" y="450" width="145" height="42" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry x="588" y="450" width="159" height="42" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-8" value="按键处理&#xa;Key_Process" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="844" y="450" width="146" height="42" as="geometry" />
+          <mxGeometry x="800" y="450" width="146" height="42" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-9" value="水泵控制&#xa;Pump_Control" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="137" y="604" width="161" height="66" as="geometry" />
