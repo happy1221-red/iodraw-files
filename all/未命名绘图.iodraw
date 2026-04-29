@@ -25,8 +25,9 @@
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-6" value="读取时间&#xa;Read_All_Time" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="385" y="450" width="145" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="YAiSLZ1Lccf0vxGErPSP-38" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-7">
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-38" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="410" as="sourcePoint" />
             <mxPoint x="680" y="430" as="targetPoint" />
             <Array as="points">
               <mxPoint x="580" y="410" />
