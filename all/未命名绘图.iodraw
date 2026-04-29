@@ -25,11 +25,8 @@
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-6" value="读取时间&#xa;Read_All_Time" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="385" y="450" width="145" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="YAiSLZ1Lccf0vxGErPSP-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-7" target="YAiSLZ1Lccf0vxGErPSP-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-7" value="获取重量&#xa;Get_Weight + 滤波" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="601" y="450" width="159" height="42" as="geometry" />
+          <mxGeometry x="588" y="450" width="159" height="42" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-8" value="按键处理&#xa;Key_Process" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="844" y="450" width="146" height="42" as="geometry" />
