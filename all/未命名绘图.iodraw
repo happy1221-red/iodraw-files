@@ -1,0 +1,152 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0" version="24.7.17">
+  <diagram name="第 1 页" id="XWZgPYG4kUKQhN8HQSqC">
+    <mxGraphModel dx="1000" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-1" value="开始" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="20" width="55" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-2" value="系统初始化&#xa;GPIO / OLED / DS1302 / HX711 / 舵机 / 水泵" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="441" y="104" width="269" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-3" value="读取皮重 &amp;amp; 恢复参数&#xa;Get_Tare / Read_Servo_Angles_From_RAM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="428" y="238" width="260" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-4" value="主循环 while(1)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="472" y="389" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-5" value="读取水位&#xa;WATER_GetData" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="488" width="175" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-6" value="读取时间&#xa;Read_All_Time" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="245" y="488" width="166" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-7" value="获取重量&#xa;Get_Weight + 滤波" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="461" y="488" width="194" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-8" value="按键处理&#xa;Key_Process" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="704" y="488" width="146" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-9" value="水泵控制&#xa;Pump_Control" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="137" y="604" width="161" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-10" value="舵机 &amp;amp; 浇灌&#xa;Servo_Control" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="577" y="604" width="181" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-11" value="菜单显示刷新&#xa;Display_Level1~4" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="351" y="720" width="183" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-12" value="闪烁计数 Blink++" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="352" y="836" width="181" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-13" value="返回循环顶部" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="428" y="935" width="156" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-1" target="YAiSLZ1Lccf0vxGErPSP-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-2" target="YAiSLZ1Lccf0vxGErPSP-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-3" target="YAiSLZ1Lccf0vxGErPSP-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.69;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-4" target="YAiSLZ1Lccf0vxGErPSP-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="108" y="463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.87;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-4" target="YAiSLZ1Lccf0vxGErPSP-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="328" y="463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-4" target="YAiSLZ1Lccf0vxGErPSP-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.89;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-4" target="YAiSLZ1Lccf0vxGErPSP-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="778" y="463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.11;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-5" target="YAiSLZ1Lccf0vxGErPSP-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="108" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.89;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-6" target="YAiSLZ1Lccf0vxGErPSP-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="328" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.15;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-7" target="YAiSLZ1Lccf0vxGErPSP-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="558" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.85;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-8" target="YAiSLZ1Lccf0vxGErPSP-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="778" y="579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.15;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-9" target="YAiSLZ1Lccf0vxGErPSP-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="218" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.15;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-10" target="YAiSLZ1Lccf0vxGErPSP-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="668" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-11" target="YAiSLZ1Lccf0vxGErPSP-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.3;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-12" target="YAiSLZ1Lccf0vxGErPSP-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="443" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.3;entryX=1;entryY=0.75;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-13" target="YAiSLZ1Lccf0vxGErPSP-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="895" y="910" />
+              <mxPoint x="895" y="463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
