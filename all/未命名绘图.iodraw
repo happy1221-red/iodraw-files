@@ -11,7 +11,7 @@
           <mxGeometry x="423.5" y="90" width="269" height="84" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-3" value="读取皮重 &amp;amp; 恢复参数&#xa;Get_Tare / Read_Servo_Angles_From_RAM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="428" y="238" width="260" height="101" as="geometry" />
+          <mxGeometry x="428" y="238" width="260" height="62" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-4" value="主循环 while(1)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="472" y="389" width="172" height="49" as="geometry" />
