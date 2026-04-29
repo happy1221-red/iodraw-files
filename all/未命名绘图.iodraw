@@ -41,7 +41,7 @@
           <mxGeometry x="352" y="836" width="181" height="49" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-13" value="返回循环顶部" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="428" y="935" width="156" height="49" as="geometry" />
+          <mxGeometry x="364.5" y="935" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-1" target="YAiSLZ1Lccf0vxGErPSP-2">
           <mxGeometry relative="1" as="geometry">
@@ -56,34 +56,6 @@
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-3" target="YAiSLZ1Lccf0vxGErPSP-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YAiSLZ1Lccf0vxGErPSP-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.15;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-7" target="YAiSLZ1Lccf0vxGErPSP-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="558" y="579" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YAiSLZ1Lccf0vxGErPSP-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.85;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-8" target="YAiSLZ1Lccf0vxGErPSP-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="778" y="579" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YAiSLZ1Lccf0vxGErPSP-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.15;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-9" target="YAiSLZ1Lccf0vxGErPSP-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="218" y="695" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YAiSLZ1Lccf0vxGErPSP-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.15;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-10" target="YAiSLZ1Lccf0vxGErPSP-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="668" y="695" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-11" target="YAiSLZ1Lccf0vxGErPSP-12">
