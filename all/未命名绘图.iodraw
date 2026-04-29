@@ -63,13 +63,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YAiSLZ1Lccf0vxGErPSP-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.3;entryY=0;rounded=0;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-12" target="YAiSLZ1Lccf0vxGErPSP-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="443" y="910" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
