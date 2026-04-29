@@ -8,13 +8,13 @@
           <mxGeometry x="493" y="20" width="130" height="34" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-2" value="系统初始化&#xa;GPIO / OLED / DS1302 / HX711 / 舵机 / 水泵" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="423.5" y="90" width="269" height="84" as="geometry" />
+          <mxGeometry x="423.5" y="120" width="269" height="54" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-3" value="读取皮重 &amp;amp; 恢复参数&#xa;Get_Tare / Read_Servo_Angles_From_RAM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="428" y="238" width="260" height="62" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-4" value="主循环 while(1)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="472" y="389" width="172" height="49" as="geometry" />
+          <mxGeometry x="472" y="350" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-5" value="读取水位&#xa;WATER_GetData" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="20" y="488" width="175" height="66" as="geometry" />
