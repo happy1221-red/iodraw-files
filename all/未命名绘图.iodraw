@@ -17,7 +17,7 @@
           <mxGeometry x="472" y="350" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-5" value="读取水位&#xa;WATER_GetData" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="488" width="175" height="66" as="geometry" />
+          <mxGeometry x="20" y="488" width="175" height="42" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-6" value="读取时间&#xa;Read_All_Time" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="245" y="488" width="166" height="66" as="geometry" />
