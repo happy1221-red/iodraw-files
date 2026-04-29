@@ -23,10 +23,10 @@
           <mxGeometry x="245" y="488" width="166" height="42" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-7" value="获取重量&#xa;Get_Weight + 滤波" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="461" y="488" width="194" height="66" as="geometry" />
+          <mxGeometry x="461" y="488" width="194" height="42" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-8" value="按键处理&#xa;Key_Process" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="704" y="488" width="146" height="66" as="geometry" />
+          <mxGeometry x="704" y="488" width="146" height="42" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-9" value="水泵控制&#xa;Pump_Control" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="137" y="604" width="161" height="66" as="geometry" />
