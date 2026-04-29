@@ -13,14 +13,14 @@
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-3" value="读取皮重 &amp;amp; 恢复参数&#xa;Get_Tare / Read_Servo_Angles_From_RAM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="428" y="220" width="260" height="62" as="geometry" />
         </mxCell>
+        <mxCell id="YAiSLZ1Lccf0vxGErPSP-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-4" target="YAiSLZ1Lccf0vxGErPSP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-4" value="主循环 while(1)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="472" y="330" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-5" value="读取水位&#xa;WATER_GetData" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="160" y="450" width="150" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="YAiSLZ1Lccf0vxGErPSP-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YAiSLZ1Lccf0vxGErPSP-6" target="YAiSLZ1Lccf0vxGErPSP-4">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YAiSLZ1Lccf0vxGErPSP-6" value="读取时间&#xa;Read_All_Time" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="385" y="450" width="145" height="42" as="geometry" />
